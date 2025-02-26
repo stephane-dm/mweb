@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieumercie Stephane</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: yellow;
+            background-color: brown;
+            text-align: center;
+            font-size: 60px;
+        }
+        h1 {
+            color: orange;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: black;
+            font-size: 120px;
+            font-weight: 200;
+        }
+        textarea {
+            color: orange;
+            font-size: medium;
+            background-color: black;
+        }
+        button {
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>You are in DM Page</h1>
+    <p>Welcome among us. You are going to register below.</p>
+    <textarea placeholder="Kindly provide your feedback!"></textarea>
+    <br />
+    <button style="color: red; background-color: yellow; font-size: 100px;">Register</button>
+    <br />
+    <img src="Screenshot_20241222-084249.png" alt="Image" height="600px" width="600px">
+    <br />
+    <h2 style="color: greenyellow; font-size: 100px; background-color: red;">Our Services</h2>
+    <p>Don't worry, you'll find everything you need here. We have reached at least 70% of the world, so rest assured that you have access to all you need.</p>
+    <br />
+    <img src="1736884073191.jpg" alt="Service Image" height="700px" width="700px">
+    <br />
+    <p>We hope you are satisfied.</p>
+    <button style="color: blue; background-color:black; font-size: 60px;">How can we help?</button>
+    <br />
+    
+    <!-- Navigation Bar -->
+    <header>
+        <h1 style="color: greenyellow; background-color: dimgray;">All You Need</h1>
+        <nav>
+            <ul>
+                <li><a href="#">All Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2 style="color: bisque; background-color: black;">Marketing & Management</h2>
+        <p>Our services are amazing! All you need to do is trust us. Our customers are our priority, which is why we are punctual and trustworthy in our business.</p>
+        <button style="color: blueviolet; background-color: bisque; font-size: 50px;">Click for Marketing</button>
+        <button style="color: blueviolet; background-color: bisque; font-size: 50px;">Click for Management</button>
+    </section>
+    
+    <!-- Customer Care -->
+    <section class="content">
+        <h2>Customer Care</h2>
+        <button onclick="location.href='index.html'" style="color: red; background-color: black; font-size: 60px;">Chat with Us</button>
+        <p>For more information, contact us on:</p>
+        <nav>
+            <ul>
+                <li><a href="#">Facebook: Stephane DM</a></li>
+                <li><a href="#">Instagram: Dieume Stephane</a></li>
+                <li><a href="#">Twitter: @StephaneDM</a></li>
+                <li><a href="#">YouTube: Stephane</a></li>
+            </ul>
+        </nav>
+        <img src="1736355641030.jpg" alt="Customer Care" height="300px" width="300px">
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p style="color: black; font-size: 20px; background-color: gray;">&copy; 2025 My Website | All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
